@@ -12,7 +12,7 @@ start().catch((error) => {
   process.exit(1);
 });
 
-/**
+/*
  * @typedef {object} JestParams
  * @property {'global' | 'dev'} target - Which configuration to use for Jest.
  * @property {boolean} [coverage] - Whether to collect coverage during testing.
