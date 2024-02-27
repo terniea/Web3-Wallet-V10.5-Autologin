@@ -62,8 +62,7 @@ const createProviderWrapper = (store, pathname = '/') => {
     children: PropTypes.node,
   };
   return {
-    Wrapper,
-    history,
+    Wrapper
   };
 };
 
