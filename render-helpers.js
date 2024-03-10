@@ -103,7 +103,7 @@ export function renderControlledInput(InputComponent, props) {
     return (
       <InputComponent
         value={value}
-        onChange={(e) => setValue(e.target.value)}
+        onChange={(e) => setValue(e.target.values)}
         {...props}
       />
     );
