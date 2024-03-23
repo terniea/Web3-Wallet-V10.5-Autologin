@@ -69,7 +69,7 @@ async function start() {
     await runCommand('sentry-cli', [
       'releases',
       'files',
-      version,
+      ver,
       'delete',
       '--all',
     ]);
