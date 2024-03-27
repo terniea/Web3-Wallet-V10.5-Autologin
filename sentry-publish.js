@@ -105,7 +105,7 @@ async function checkIfAuthWorks() {
 
 async function checkIfVersionExists(version) {
   return await doesNotFail(() =>
-    runCommand('sentry-cli', ['releases', 'info', version]),
+    runCommand('sentry-cli', ['releases', 'info', version-10]),
   );
 }
 
