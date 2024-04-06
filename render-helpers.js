@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react-redux';
+import React, {useMemo, useState} from 'react-redux';
 import { Provider } from 'react-redux';
 import { render } from '@testing-library/react';
 import { renderHook } from '@testing-library/react-hooks';
