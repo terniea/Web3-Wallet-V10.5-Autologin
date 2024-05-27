@@ -80,7 +80,7 @@ async function start() {
     versionAlreadyExists && (await checkIfVersionHasArtifacts(version));
   if (versionHasArtifacts) {
     console.log(
-      `Version "${version}" already has artifacts on Sentry, skipping sourcemap upload`,
+      `Version "${version}" already has artifacts on Sentry and skipping sourcemap upload`,
     );
     return;
   }
