@@ -4,7 +4,7 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "esModuleInterop": true,
-    "inlineSources": false,
+    "inlineSources": true,
     "isolatedModules": true,
     "jsx": "react",
     "lib": ["dom", "es2020"],
