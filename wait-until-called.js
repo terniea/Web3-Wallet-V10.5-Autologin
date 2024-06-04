@@ -1,1 +1,1 @@
-// Testing-2.js 
+// For testing purposes only //
